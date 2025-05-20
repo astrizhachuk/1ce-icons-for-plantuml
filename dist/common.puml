@@ -12,3 +12,11 @@
 '   e_alias:    the alias to give the entity
 '   e_label:    the label to give the entity
 !define ENTITY(e_sprite,e_alias,e_label) object "<$e_sprite> e_label" as e_alias
+
+' Creates an aliased entity with a sprite, alias, label and tag
+' Params:
+'   e_sprite:   the sprite for the 1C:Enterprise icon representing the entity
+'   e_alias:    the alias to give the entity
+'   e_label:    the label to give the entity
+'   e_tag:    the tag to give the entity
+!define ENTITY(e_sprite,e_alias,e_label,e_tag) object "<$e_sprite> e_label $e_tag" as e_alias
