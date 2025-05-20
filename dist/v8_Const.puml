@@ -21,9 +21,9 @@ zzrijRf>f?f?j?j?f>f>f>j?nSzzzzzz
 
 !define v8_Const(_alias) ENTITY(const,_alias)
 !define v8_Const(_alias, _label) ENTITY(const,_alias,_label)
-!define v8_Const(alias, _label, _tag) ENTITY(const,_alias,_label,_tag)
+!define v8_Const(_alias, _label, _tag) ENTITY(const,_alias,_label,_tag)
 !define _Константа(_alias) ENTITY(const,_alias)
 !define _Константа(_alias, _label) ENTITY(const,_alias,_label)
-!define _Константа(alias, _label, _tag) ENTITY(const,_alias,_label,_tag)
+!define _Константа(_alias, _label, _tag) ENTITY(const,_alias,_label,_tag)
 
 @enduml
