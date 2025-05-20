@@ -20,10 +20,11 @@ zzzzvivivivivivivivivivivivizzzz
 zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 }
 
-
 !define v8_ChartOfCharacteristicTypes(_alias) ENTITY(chartofcharacteristictypes,_alias)
 !define v8_ChartOfCharacteristicTypes(_alias, _label) ENTITY(chartofcharacteristictypes,_alias,_label)
+!define v8_ChartOfCharacteristicTypes(_alias, _label, _tag) ENTITY(chartofcharacteristictypes,_alias,_label,_tag)
 !define _ПланВидовХарактеристик(_alias) ENTITY(chartofcharacteristictypes,_alias)
 !define _ПланВидовХарактеристик(_alias, _label) ENTITY(chartofcharacteristictypes,_alias,_label)
+!define _ПланВидовХарактеристик(_alias, _label, _tag) ENTITY(chartofcharacteristictypes,_alias,_label,_tag)
 
 @enduml
