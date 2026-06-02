@@ -21,7 +21,9 @@ zzzzzzzzzzzzvzvjvivivivivivzzzzz
 
 !define v8_SettingsStorage(_alias) ENTITY(settingsstorage,_alias)
 !define v8_SettingsStorage(_alias, _label) ENTITY(settingsstorage,_alias,_label)
+!define v8_SettingsStorage(_alias, _label, _tag) ENTITY(settingsstorage,_alias,_label,_tag)
 !define _ХранилищеНастроек(_alias) ENTITY(settingsstorage,_alias)
 !define _ХранилищеНастроек(_alias, _label) ENTITY(settingsstorage,_alias,_label)
+!define _ХранилищеНастроек(_alias, _label, _tag) ENTITY(settingsstorage,_alias,_label,_tag)
 
 @enduml

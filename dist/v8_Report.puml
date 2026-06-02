@@ -21,7 +21,9 @@ zzzzvivivivivivivivivivivizzzzzz
 
 !define v8_Report(_alias) ENTITY(report,_alias)
 !define v8_Report(_alias, _label) ENTITY(report,_alias,_label)
+!define v8_Report(_alias, _label, _tag) ENTITY(report,_alias,_label,_tag)
 !define _Отчет(_alias) ENTITY(report,_alias)
 !define _Отчет(_alias, _label) ENTITY(report,_alias,_label)
+!define _Отчет(_alias, _label, _tag) ENTITY(report,_alias,_label,_tag)
 
 @enduml

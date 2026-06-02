@@ -21,7 +21,9 @@ zzzzn?j>iwiwiwiwj?zzzzzzzzzzzzzz
 
 !define v8_WsReference(_alias) ENTITY(wsreference,_alias)
 !define v8_WsReference(_alias, _label) ENTITY(wsreference,_alias,_label)
+!define v8_WsReference(_alias, _label, _tag) ENTITY(wsreference,_alias,_label,_tag)
 !define _СсылкаWS(_alias) ENTITY(wsreference,_alias)
 !define _СсылкаWS(_alias, _label) ENTITY(wsreference,_alias,_label)
+!define _СсылкаWS(_alias, _label, _tag) ENTITY(wsreference,_alias,_label,_tag)
 
 @enduml

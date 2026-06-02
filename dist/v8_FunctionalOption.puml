@@ -21,7 +21,9 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 
 !define v8_FunctionalOption(_alias) ENTITY(functionaloption,_alias)
 !define v8_FunctionalOption(_alias, _label) ENTITY(functionaloption,_alias,_label)
+!define v8_FunctionalOption(_alias, _label, _tag) ENTITY(functionaloption,_alias,_label,_tag)
 !define _ФункциональнаяОпция(_alias) ENTITY(functionaloption,_alias)
 !define _ФункциональнаяОпция(_alias, _label) ENTITY(functionaloption,_alias,_label)
+!define _ФункциональнаяОпция(_alias, _label, _tag) ENTITY(functionaloption,_alias,_label,_tag)
 
 @enduml

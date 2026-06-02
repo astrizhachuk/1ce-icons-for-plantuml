@@ -21,7 +21,9 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 
 !define v8_IntegrationService(_alias) ENTITY(integrationservice,_alias)
 !define v8_IntegrationService(_alias, _label) ENTITY(integrationservice,_alias,_label)
+!define v8_IntegrationService(_alias, _label, _tag) ENTITY(integrationservice,_alias,_label,_tag)
 !define _СервисИнтеграции(_alias) ENTITY(integrationservice,_alias)
 !define _СервисИнтеграции(_alias, _label) ENTITY(integrationservice,_alias,_label)
+!define _СервисИнтеграции(_alias, _label, _tag) ENTITY(integrationservice,_alias,_label,_tag)
 
 @enduml

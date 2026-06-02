@@ -21,7 +21,9 @@ zzzzzzzzzzzzzzzzzznSn?vzzzzzzzzz
 
 !define v8_ChartOfAccounts(_alias) ENTITY(chartofaccounts,_alias)
 !define v8_ChartOfAccounts(_alias, _label) ENTITY(chartofaccounts,_alias,_label)
+!define v8_ChartOfAccounts(_alias, _label, _tag) ENTITY(chartofaccounts,_alias,_label,_tag)
 !define _ПланСчетов(_alias) ENTITY(chartofaccounts,_alias)
 !define _ПланСчетов(_alias, _label) ENTITY(chartofaccounts,_alias,_label)
+!define _ПланСчетов(_alias, _label, _tag) ENTITY(chartofaccounts,_alias,_label,_tag)
 
 @enduml

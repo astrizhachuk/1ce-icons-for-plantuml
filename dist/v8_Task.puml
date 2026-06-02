@@ -21,7 +21,9 @@ zzzzvivivivivivivivivivivivzzzzz
 
 !define v8_Task(_alias) ENTITY(task,_alias)
 !define v8_Task(_alias, _label) ENTITY(task,_alias,_label)
+!define v8_Task(_alias, _label, _tag) ENTITY(task,_alias,_label,_tag)
 !define _Задача(_alias) ENTITY(task,_alias)
 !define _Задача(_alias, _label) ENTITY(task,_alias,_label)
+!define _Задача(_alias, _label, _tag) ENTITY(task,_alias,_label,_tag)
 
 @enduml

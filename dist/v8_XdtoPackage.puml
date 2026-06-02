@@ -21,7 +21,9 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 
 !define v8_XdtoPackage(_alias) ENTITY(xdtopackage,_alias)
 !define v8_XdtoPackage(_alias, _label) ENTITY(xdtopackage,_alias,_label)
+!define v8_XdtoPackage(_alias, _label, _tag) ENTITY(xdtopackage,_alias,_label,_tag)
 !define _ПакетXDTO(_alias) ENTITY(xdtopackage,_alias)
 !define _ПакетXDTO(_alias, _label) ENTITY(xdtopackage,_alias,_label)
+!define _ПакетXDTO(_alias, _label, _tag) ENTITY(xdtopackage,_alias,_label,_tag)
 
 @enduml

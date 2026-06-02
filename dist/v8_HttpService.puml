@@ -21,7 +21,9 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 
 !define v8_HttpService(_alias) ENTITY(httpservice,_alias)
 !define v8_HttpService(_alias, _label) ENTITY(httpservice,_alias,_label)
+!define v8_HttpService(_alias, _label, _tag) ENTITY(httpservice,_alias,_label,_tag)
 !define _СервисHTTP(_alias) ENTITY(httpservice,_alias)
 !define _СервисHTTP(_alias, _label) ENTITY(httpservice,_alias,_label)
+!define _СервисHTTP(_alias, _label, _tag) ENTITY(httpservice,_alias,_label,_tag)
 
 @enduml

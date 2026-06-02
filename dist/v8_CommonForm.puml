@@ -21,7 +21,9 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 
 !define v8_CommonForm(_alias) ENTITY(commonform,_alias)
 !define v8_CommonForm(_alias, _label) ENTITY(commonform,_alias,_label)
+!define v8_CommonForm(_alias, _label, _tag) ENTITY(commonform,_alias,_label,_tag)
 !define _ОбщаяФорма(_alias) ENTITY(commonform,_alias)
 !define _ОбщаяФорма(_alias, _label) ENTITY(commonform,_alias,_label)
+!define _ОбщаяФорма(_alias, _label, _tag) ENTITY(commonform,_alias,_label,_tag)
 
 @enduml

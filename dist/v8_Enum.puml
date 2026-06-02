@@ -20,7 +20,9 @@ sprite $enum16 [16x15/16] {
 
 !define v8_Enum(_alias) ENTITY(enum16,_alias)
 !define v8_Enum(_alias, _label) ENTITY(enum16,_alias,_label)
+!define v8_Enum(_alias, _label, _tag) ENTITY(enum16,_alias,_label,_tag)
 !define _Перечисление(_alias) ENTITY(enum16,_alias)
 !define _Перечисление(_alias, _label) ENTITY(enum16,_alias,_label)
+!define _Перечисление(_alias, _label, _tag) ENTITY(enum16,_alias,_label,_tag)
 
 @enduml

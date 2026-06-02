@@ -21,7 +21,9 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 
 !define v8_StyleItem(_alias) ENTITY(styleitem,_alias)
 !define v8_StyleItem(_alias, _label) ENTITY(styleitem,_alias,_label)
+!define v8_StyleItem(_alias, _label, _tag) ENTITY(styleitem,_alias,_label,_tag)
 !define _ЭлементСтиля(_alias) ENTITY(styleitem,_alias)
 !define _ЭлементСтиля(_alias, _label) ENTITY(styleitem,_alias,_label)
+!define _ЭлементСтиля(_alias, _label, _tag) ENTITY(styleitem,_alias,_label,_tag)
 
 @enduml

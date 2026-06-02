@@ -21,7 +21,9 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 
 !define v8_CommonPicture(_alias) ENTITY(commonpicture,_alias)
 !define v8_CommonPicture(_alias, _label) ENTITY(commonpicture,_alias,_label)
+!define v8_CommonPicture(_alias, _label, _tag) ENTITY(commonpicture,_alias,_label,_tag)
 !define _ОбщаяКартинка(_alias) ENTITY(commonpicture,_alias)
 !define _ОбщаяКартинка(_alias, _label) ENTITY(commonpicture,_alias,_label)
+!define _ОбщаяКартинка(_alias, _label, _tag) ENTITY(commonpicture,_alias,_label,_tag)
 
 @enduml

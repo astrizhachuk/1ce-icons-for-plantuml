@@ -21,7 +21,9 @@ zzzzzzzzzzvjvirivivjzzzzzzzzzzzz
 
 !define v8_ScheduledJob(_alias) ENTITY(scheduledjob,_alias)
 !define v8_ScheduledJob(_alias, _label) ENTITY(scheduledjob,_alias,_label)
+!define v8_ScheduledJob(_alias, _label, _tag) ENTITY(scheduledjob,_alias,_label,_tag)
 !define _РегламентноеЗадание(_alias) ENTITY(scheduledjob,_alias)
 !define _РегламентноеЗадание(_alias, _label) ENTITY(scheduledjob,_alias,_label)
+!define _РегламентноеЗадание(_alias, _label, _tag) ENTITY(scheduledjob,_alias,_label,_tag)
 
 @enduml

@@ -21,7 +21,9 @@ zzzzzzzzzzzzzzzzvizzzzzzzzzzzzzz
 
 !define v8_Role(_alias) ENTITY(role,_alias)
 !define v8_Role(_alias, _label) ENTITY(role,_alias,_label)
+!define v8_Role(_alias, _label, _tag) ENTITY(role,_alias,_label,_tag)
 !define _Роль(_alias) ENTITY(role,_alias)
 !define _Роль(_alias, _label) ENTITY(role,_alias,_label)
+!define _Роль(_alias, _label, _tag) ENTITY(role,_alias,_label,_tag)
 
 @enduml

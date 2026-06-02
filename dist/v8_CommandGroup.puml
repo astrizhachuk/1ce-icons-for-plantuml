@@ -21,7 +21,9 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 
 !define v8_CommandGroup(_alias) ENTITY(commandgroup,_alias)
 !define v8_CommandGroup(_alias, _label) ENTITY(commandgroup,_alias,_label)
+!define v8_CommandGroup(_alias, _label, _tag) ENTITY(commandgroup,_alias,_label,_tag)
 !define _ГруппаКоманд(_alias) ENTITY(commandgroup,_alias)
 !define _ГруппаКоманд(_alias, _label) ENTITY(commandgroup,_alias,_label)
+!define _ГруппаКоманд(_alias, _label, _tag) ENTITY(commandgroup,_alias,_label,_tag)
 
 @enduml

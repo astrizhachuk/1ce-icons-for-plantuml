@@ -21,7 +21,9 @@ zzvinSn?j?nRrizzzzzzrinSn?j?nRvi
 
 !define v8_ExchangePlan(_alias) ENTITY(exchangeplan,_alias)
 !define v8_ExchangePlan(_alias, _label) ENTITY(exchangeplan,_alias,_label)
+!define v8_ExchangePlan(_alias, _label, _tag) ENTITY(exchangeplan,_alias,_label,_tag)
 !define _ПланОбмена(_alias) ENTITY(exchangeplan,_alias)
 !define _ПланОбмена(_alias, _label) ENTITY(exchangeplan,_alias,_label)
+!define _ПланОбмена(_alias, _label, _tag) ENTITY(exchangeplan,_alias,_label,_tag)
 
 @enduml

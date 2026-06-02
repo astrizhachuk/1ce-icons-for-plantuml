@@ -21,7 +21,9 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 
 !define v8_CommonAttribute(_alias) ENTITY(commonattribute,_alias)
 !define v8_CommonAttribute(_alias, _label) ENTITY(commonattribute,_alias,_label)
+!define v8_CommonAttribute(_alias, _label, _tag) ENTITY(commonattribute,_alias,_label,_tag)
 !define _ОбщийРеквизит(_alias) ENTITY(commonattribute,_alias)
 !define _ОбщийРеквизит(_alias, _label) ENTITY(commonattribute,_alias,_label)
+!define _ОбщийРеквизит(_alias, _label, _tag) ENTITY(commonattribute,_alias,_label,_tag)
 
 @enduml

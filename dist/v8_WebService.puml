@@ -21,7 +21,9 @@ zzzzvRmumumumumurRzzzzzzzzzzzzzz
 
 !define v8_WebService(_alias) ENTITY(webservice,_alias)
 !define v8_WebService(_alias, _label) ENTITY(webservice,_alias,_label)
+!define v8_WebService(_alias, _label, _tag) ENTITY(webservice,_alias,_label,_tag)
 !define _ВебСервис(_alias) ENTITY(webservice,_alias)
 !define _ВебСервис(_alias, _label) ENTITY(webservice,_alias,_label)
+!define _ВебСервис(_alias, _label, _tag) ENTITY(webservice,_alias,_label,_tag)
 
 @enduml

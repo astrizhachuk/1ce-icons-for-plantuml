@@ -21,7 +21,9 @@ zzzzvivivivivivivivivivivivzzzzz
 
 !define v8_CalculationRg(_alias) ENTITY(calculationrg,_alias)
 !define v8_CalculationRg(_alias, _label) ENTITY(calculationrg,_alias,_label)
+!define v8_CalculationRg(_alias, _label, _tag) ENTITY(calculationrg,_alias,_label,_tag)
 !define _РегистрРасчета(_alias) ENTITY(calculationrg,_alias)
 !define _РегистрРасчета(_alias, _label) ENTITY(calculationrg,_alias,_label)
+!define _РегистрРасчета(_alias, _label, _tag) ENTITY(calculationrg,_alias,_label,_tag)
 
 @enduml

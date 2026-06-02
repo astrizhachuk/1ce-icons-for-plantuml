@@ -21,7 +21,9 @@ zyf<WbOJK&K&K&K&K&O*OJOKacvizzzz
 
 !define v8_DocumentJournal(_alias) ENTITY(documentjournal,_alias)
 !define v8_DocumentJournal(_alias, _label) ENTITY(documentjournal,_alias,_label)
+!define v8_DocumentJournal(_alias, _label, _tag) ENTITY(documentjournal,_alias,_label,_tag)
 !define _ЖурналДокументов(_alias) ENTITY(documentjournal,_alias)
 !define _ЖурналДокументов(_alias, _label) ENTITY(documentjournal,_alias,_label)
+!define _ЖурналДокументов(_alias, _label, _tag) ENTITY(documentjournal,_alias,_label,_tag)
 
 @enduml

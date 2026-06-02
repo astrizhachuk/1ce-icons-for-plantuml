@@ -21,7 +21,9 @@ zzrSn?n?n?n?n?n?n?n?n?n?n?n?rRzz
 
 !define v8_FilterCriteria(_alias) ENTITY(filtercriteria,_alias)
 !define v8_FilterCriteria(_alias, _label) ENTITY(filtercriteria,_alias,_label)
+!define v8_FilterCriteria(_alias, _label, _tag) ENTITY(filtercriteria,_alias,_label,_tag)
 !define _КритерииОтбора(_alias) ENTITY(filtercriteria,_alias)
 !define _КритерииОтбора(_alias, _label) ENTITY(filtercriteria,_alias,_label)
+!define _КритерииОтбора(_alias, _label, _tag) ENTITY(filtercriteria,_alias,_label,_tag)
 
 @enduml
