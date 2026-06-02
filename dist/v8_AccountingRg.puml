@@ -25,5 +25,7 @@ zzzzvivivivivivivivivivivivizzzz
 !define _РегистрБухгалтерии(_alias) ENTITY(accountingrg,_alias)
 !define _РегистрБухгалтерии(_alias, _label) ENTITY(accountingrg,_alias,_label)
 !define _РегистрБухгалтерии(_alias, _label, _tag) ENTITY(accountingrg,_alias,_label,_tag)
+!define v8_AccountingRgExt(_alias, _label, _mod) ENTITYX(accountingrg,_alias,_label,_mod)
+!define _РегистрБухгалтерииРасширенный(_alias, _label, _mod) ENTITYX(accountingrg,_alias,_label,_mod)
 
 @enduml

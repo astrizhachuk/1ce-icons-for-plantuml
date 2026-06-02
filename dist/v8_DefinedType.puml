@@ -25,5 +25,7 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 !define _ОпределяемыйТип(_alias) ENTITY(definedtype,_alias)
 !define _ОпределяемыйТип(_alias, _label) ENTITY(definedtype,_alias,_label)
 !define _ОпределяемыйТип(_alias, _label, _tag) ENTITY(definedtype,_alias,_label,_tag)
+!define v8_DefinedTypeExt(_alias, _label, _mod) ENTITYX(definedtype,_alias,_label,_mod)
+!define _ОпределяемыйТипРасширенный(_alias, _label, _mod) ENTITYX(definedtype,_alias,_label,_mod)
 
 @enduml

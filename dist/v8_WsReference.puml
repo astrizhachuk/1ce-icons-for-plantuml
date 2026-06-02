@@ -25,5 +25,7 @@ zzzzn?j>iwiwiwiwj?zzzzzzzzzzzzzz
 !define _СсылкаWS(_alias) ENTITY(wsreference,_alias)
 !define _СсылкаWS(_alias, _label) ENTITY(wsreference,_alias,_label)
 !define _СсылкаWS(_alias, _label, _tag) ENTITY(wsreference,_alias,_label,_tag)
+!define v8_WsReferenceExt(_alias, _label, _mod) ENTITYX(wsreference,_alias,_label,_mod)
+!define _СсылкаWSРасширенный(_alias, _label, _mod) ENTITYX(wsreference,_alias,_label,_mod)
 
 @enduml

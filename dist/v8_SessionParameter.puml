@@ -25,5 +25,7 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 !define _ПараметрСеанса(_alias) ENTITY(sessionparameter,_alias)
 !define _ПараметрСеанса(_alias, _label) ENTITY(sessionparameter,_alias,_label)
 !define _ПараметрСеанса(_alias, _label, _tag) ENTITY(sessionparameter,_alias,_label,_tag)
+!define v8_SessionParameterExt(_alias, _label, _mod) ENTITYX(sessionparameter,_alias,_label,_mod)
+!define _ПараметрСеансаРасширенный(_alias, _label, _mod) ENTITYX(sessionparameter,_alias,_label,_mod)
 
 @enduml

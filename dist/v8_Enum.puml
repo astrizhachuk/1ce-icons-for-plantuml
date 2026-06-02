@@ -24,5 +24,7 @@ sprite $enum16 [16x15/16] {
 !define _Перечисление(_alias) ENTITY(enum16,_alias)
 !define _Перечисление(_alias, _label) ENTITY(enum16,_alias,_label)
 !define _Перечисление(_alias, _label, _tag) ENTITY(enum16,_alias,_label,_tag)
+!define v8_EnumExt(_alias, _label, _mod) ENTITYX(enum16,_alias,_label,_mod)
+!define _ПеречислениеРасширенный(_alias, _label, _mod) ENTITYX(enum16,_alias,_label,_mod)
 
 @enduml

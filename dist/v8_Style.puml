@@ -25,5 +25,7 @@ zzvjn?a;RMNMRdaPn?vivivivizzzzzz
 !define _Стиль(_alias) ENTITY(style,_alias)
 !define _Стиль(_alias, _label) ENTITY(style,_alias,_label)
 !define _Стиль(_alias, _label, _tag) ENTITY(style,_alias,_label,_tag)
+!define v8_StyleExt(_alias, _label, _mod) ENTITYX(style,_alias,_label,_mod)
+!define _СтильРасширенный(_alias, _label, _mod) ENTITYX(style,_alias,_label,_mod)
 
 @enduml

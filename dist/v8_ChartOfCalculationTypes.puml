@@ -25,5 +25,7 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 !define _ПланВидовРасчета(_alias) ENTITY(chartofcalculationtypes,_alias)
 !define _ПланВидовРасчета(_alias, _label) ENTITY(chartofcalculationtypes,_alias,_label)
 !define _ПланВидовРасчета(_alias, _label, _tag) ENTITY(chartofcalculationtypes,_alias,_label,_tag)
+!define v8_ChartOfCalculationTypesExt(_alias, _label, _mod) ENTITYX(chartofcalculationtypes,_alias,_label,_mod)
+!define _ПланВидовРасчетаРасширенный(_alias, _label, _mod) ENTITYX(chartofcalculationtypes,_alias,_label,_mod)
 
 @enduml

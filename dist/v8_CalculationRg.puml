@@ -25,5 +25,7 @@ zzzzvivivivivivivivivivivivzzzzz
 !define _РегистрРасчета(_alias) ENTITY(calculationrg,_alias)
 !define _РегистрРасчета(_alias, _label) ENTITY(calculationrg,_alias,_label)
 !define _РегистрРасчета(_alias, _label, _tag) ENTITY(calculationrg,_alias,_label,_tag)
+!define v8_CalculationRgExt(_alias, _label, _mod) ENTITYX(calculationrg,_alias,_label,_mod)
+!define _РегистрРасчетаРасширенный(_alias, _label, _mod) ENTITYX(calculationrg,_alias,_label,_mod)
 
 @enduml

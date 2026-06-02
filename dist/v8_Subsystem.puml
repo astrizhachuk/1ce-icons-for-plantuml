@@ -25,5 +25,7 @@ zzzivQmumdmdr=zizzzivQmumdidr>vi
 !define _Пoдсистема(_alias) ENTITY(subsystem,_alias)
 !define _Пoдсистема(_alias, _label) ENTITY(subsystem,_alias,_label)
 !define _Пoдсистема(_alias, _label, _tag) ENTITY(subsystem,_alias,_label,_tag)
+!define v8_SubsystemExt(_alias, _label, _mod) ENTITYX(subsystem,_alias,_label,_mod)
+!define _ПoдсистемаРасширенный(_alias, _label, _mod) ENTITYX(subsystem,_alias,_label,_mod)
 
 @enduml

@@ -25,5 +25,7 @@ zzzzzzzzzzzzzzzzzznSn?vzzzzzzzzz
 !define _ПланСчетов(_alias) ENTITY(chartofaccounts,_alias)
 !define _ПланСчетов(_alias, _label) ENTITY(chartofaccounts,_alias,_label)
 !define _ПланСчетов(_alias, _label, _tag) ENTITY(chartofaccounts,_alias,_label,_tag)
+!define v8_ChartOfAccountsExt(_alias, _label, _mod) ENTITYX(chartofaccounts,_alias,_label,_mod)
+!define _ПланСчетовРасширенный(_alias, _label, _mod) ENTITYX(chartofaccounts,_alias,_label,_mod)
 
 @enduml

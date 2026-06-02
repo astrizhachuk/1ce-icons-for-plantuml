@@ -20,3 +20,14 @@
 '   e_label:    the label to give the entity
 '   e_tag:    the tag to give the entity
 !define ENTITY(e_sprite,e_alias,e_label,e_tag) class "<$e_sprite> e_label" as e_alias $e_tag
+
+' Creates an aliased entity as an object with a display modifier (extended form)
+' Unlike ENTITY/4 (class + element-tag), this keeps the node an object: no spot
+' circle and no element-tag, but it accepts a styling modifier instead.
+' Params:
+'   e_sprite:   the sprite for the 1C:Enterprise icon representing the entity
+'   e_alias:    the alias to give the entity
+'   e_label:    the label to give the entity
+'   e_mod:    display modifier appended to the entity: a stereotype (<<...>>)
+'             styled via <style>/skinparam, and/or a background color (#RRGGBB)
+!define ENTITYX(e_sprite,e_alias,e_label,e_mod) object "<$e_sprite> e_label" as e_alias e_mod

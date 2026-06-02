@@ -25,5 +25,7 @@ zzzzzzzzzzn>ivivivivn>zzzzzzzzzz
 !define _Бот(_alias) ENTITY(bot,_alias)
 !define _Бот(_alias, _label) ENTITY(bot,_alias,_label)
 !define _Бот(_alias, _label, _tag) ENTITY(bot,_alias,_label,_tag)
+!define v8_BotExt(_alias, _label, _mod) ENTITYX(bot,_alias,_label,_mod)
+!define _БотРасширенный(_alias, _label, _mod) ENTITYX(bot,_alias,_label,_mod)
 
 @enduml

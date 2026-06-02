@@ -25,5 +25,7 @@ zzzzzzzzzzzzzzzivhzizyzivhzizzzz
 !define _ВнешнийИсточникДанных(_alias) ENTITY(externaldatasource,_alias)
 !define _ВнешнийИсточникДанных(_alias, _label) ENTITY(externaldatasource,_alias,_label)
 !define _ВнешнийИсточникДанных(_alias, _label, _tag) ENTITY(externaldatasource,_alias,_label,_tag)
+!define v8_ExternalDataSourceExt(_alias, _label, _mod) ENTITYX(externaldatasource,_alias,_label,_mod)
+!define _ВнешнийИсточникДанныхРасширенный(_alias, _label, _mod) ENTITYX(externaldatasource,_alias,_label,_mod)
 
 @enduml

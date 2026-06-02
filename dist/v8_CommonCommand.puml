@@ -25,5 +25,7 @@ zzzzzzzzzzvivQrQvQvQvizzzzzzzzzz
 !define _ОбщаяКоманда(_alias) ENTITY(commoncommand,_alias)
 !define _ОбщаяКоманда(_alias, _label) ENTITY(commoncommand,_alias,_label)
 !define _ОбщаяКоманда(_alias, _label, _tag) ENTITY(commoncommand,_alias,_label,_tag)
+!define v8_CommonCommandExt(_alias, _label, _mod) ENTITYX(commoncommand,_alias,_label,_mod)
+!define _ОбщаяКомандаРасширенный(_alias, _label, _mod) ENTITYX(commoncommand,_alias,_label,_mod)
 
 @enduml

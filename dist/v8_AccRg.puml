@@ -27,5 +27,7 @@ zzrSj>afafafafafafafafafafafafafiwrSzz
 !define _РегистрНакопления(_alias) ENTITY(accrg,_alias)
 !define _РегистрНакопления(_alias, _label) ENTITY(accrg,_alias,_label)
 !define _РегистрНакопления(_alias, _label, _tag) ENTITY(accrg,_alias,_label,_tag)
+!define v8_AccRgExt(_alias, _label, _mod) ENTITYX(accrg,_alias,_label,_mod)
+!define _РегистрНакопленияРасширенный(_alias, _label, _mod) ENTITYX(accrg,_alias,_label,_mod)
 
 @enduml

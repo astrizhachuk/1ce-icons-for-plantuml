@@ -25,5 +25,7 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 !define _ОбщийМодуль(_alias) ENTITY(commonmodule,_alias)
 !define _ОбщийМодуль(_alias, _label) ENTITY(commonmodule,_alias,_label)
 !define _ОбщийМодуль(_alias, _label, _tag) ENTITY(commonmodule,_alias,_label,_tag)
+!define v8_CommonModuleExt(_alias, _label, _mod) ENTITYX(commonmodule,_alias,_label,_mod)
+!define _ОбщийМодульРасширенный(_alias, _label, _mod) ENTITYX(commonmodule,_alias,_label,_mod)
 
 @enduml

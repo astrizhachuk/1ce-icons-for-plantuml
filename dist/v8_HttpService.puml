@@ -25,5 +25,7 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 !define _СервисHTTP(_alias) ENTITY(httpservice,_alias)
 !define _СервисHTTP(_alias, _label) ENTITY(httpservice,_alias,_label)
 !define _СервисHTTP(_alias, _label, _tag) ENTITY(httpservice,_alias,_label,_tag)
+!define v8_HttpServiceExt(_alias, _label, _mod) ENTITYX(httpservice,_alias,_label,_mod)
+!define _СервисHTTPРасширенный(_alias, _label, _mod) ENTITYX(httpservice,_alias,_label,_mod)
 
 @enduml

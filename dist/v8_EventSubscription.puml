@@ -25,5 +25,7 @@ vinRj>j>j>j>j>j>j>j>j>j>n?vizzzz
 !define _ПодпискаНаСобытие(_alias) ENTITY(eventsubscription,_alias)
 !define _ПодпискаНаСобытие(_alias, _label) ENTITY(eventsubscription,_alias,_label)
 !define _ПодпискаНаСобытие(_alias, _label, _tag) ENTITY(eventsubscription,_alias,_label,_tag)
+!define v8_EventSubscriptionExt(_alias, _label, _mod) ENTITYX(eventsubscription,_alias,_label,_mod)
+!define _ПодпискаНаСобытиеРасширенный(_alias, _label, _mod) ENTITYX(eventsubscription,_alias,_label,_mod)
 
 @enduml

@@ -25,5 +25,7 @@ zzrijRf>f?f?j?j?f>f>f>j?nSzzzzzz
 !define _Константа(_alias) ENTITY(const,_alias)
 !define _Константа(_alias, _label) ENTITY(const,_alias,_label)
 !define _Константа(_alias, _label, _tag) ENTITY(const,_alias,_label,_tag)
+!define v8_ConstExt(_alias, _label, _mod) ENTITYX(const,_alias,_label,_mod)
+!define _КонстантаРасширенный(_alias, _label, _mod) ENTITYX(const,_alias,_label,_mod)
 
 @enduml

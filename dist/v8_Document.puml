@@ -27,5 +27,7 @@ zzj>afafafafafafafafafafafafafafafnRzz
 !define _Документ(_alias) ENTITY(document,_alias)
 !define _Документ(_alias, _label) ENTITY(document,_alias,_label)
 !define _Документ(_alias, _label, _tag) ENTITY(document,_alias,_label,_tag)
+!define v8_DocumentExt(_alias, _label, _mod) ENTITYX(document,_alias,_label,_mod)
+!define _ДокументРасширенный(_alias, _label, _mod) ENTITYX(document,_alias,_label,_mod)
 
 @enduml

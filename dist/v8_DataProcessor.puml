@@ -25,5 +25,7 @@ zzvzvivivivivivivzzzzzzzzzzzzzzz
 !define _Обработка(_alias) ENTITY(dataprocessor,_alias)
 !define _Обработка(_alias, _label) ENTITY(dataprocessor,_alias,_label)
 !define _Обработка(_alias, _label, _tag) ENTITY(dataprocessor,_alias,_label,_tag)
+!define v8_DataProcessorExt(_alias, _label, _mod) ENTITYX(dataprocessor,_alias,_label,_mod)
+!define _ОбработкаРасширенный(_alias, _label, _mod) ENTITYX(dataprocessor,_alias,_label,_mod)
 
 @enduml

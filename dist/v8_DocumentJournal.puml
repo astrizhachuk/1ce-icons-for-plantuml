@@ -25,5 +25,7 @@ zyf<WbOJK&K&K&K&K&O*OJOKacvizzzz
 !define _ЖурналДокументов(_alias) ENTITY(documentjournal,_alias)
 !define _ЖурналДокументов(_alias, _label) ENTITY(documentjournal,_alias,_label)
 !define _ЖурналДокументов(_alias, _label, _tag) ENTITY(documentjournal,_alias,_label,_tag)
+!define v8_DocumentJournalExt(_alias, _label, _mod) ENTITYX(documentjournal,_alias,_label,_mod)
+!define _ЖурналДокументовРасширенный(_alias, _label, _mod) ENTITYX(documentjournal,_alias,_label,_mod)
 
 @enduml

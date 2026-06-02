@@ -25,5 +25,7 @@ zzrin?n>n>n>n>n>n>n>n>n>n>n>n>n>nRvizz
 !define _Справочник(_alias) ENTITY(catalog,_alias)
 !define _Справочник(_alias, _label) ENTITY(catalog,_alias,_label)
 !define _Справочник(_alias, _label, _tag) ENTITY(catalog,_alias,_label,_tag)
+!define v8_CatalogExt(_alias, _label, _mod) ENTITYX(catalog,_alias,_label,_mod)
+!define _СправочникРасширенный(_alias, _label, _mod) ENTITYX(catalog,_alias,_label,_mod)
 
 @enduml

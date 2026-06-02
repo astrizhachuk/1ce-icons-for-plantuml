@@ -25,5 +25,7 @@ zzzzzzviiwvizzzzzzzzvQq:v>zzzzzz
 !define _БизнесПроцесс(_alias) ENTITY(businessprocess,_alias)
 !define _БизнесПроцесс(_alias, _label) ENTITY(businessprocess,_alias,_label)
 !define _БизнесПроцесс(_alias, _label, _tag) ENTITY(businessprocess,_alias,_label,_tag)
+!define v8_BusinessProcessExt(_alias, _label, _mod) ENTITYX(businessprocess,_alias,_label,_mod)
+!define _БизнесПроцессРасширенный(_alias, _label, _mod) ENTITYX(businessprocess,_alias,_label,_mod)
 
 @enduml

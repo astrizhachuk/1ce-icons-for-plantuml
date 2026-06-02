@@ -27,5 +27,7 @@ zzrSj>afafafafafafafafafafafafafj>vizz
 !define _РегистрСведений(_alias) ENTITY(inforg,_alias)
 !define _РегистрСведений(_alias, _label) ENTITY(inforg,_alias,_label)
 !define _РегистрСведений(_alias, _label, _tag) ENTITY(inforg,_alias,_label,_tag)
+!define v8_InfoRgExt(_alias, _label, _mod) ENTITYX(inforg,_alias,_label,_mod)
+!define _РегистрСведенийРасширенный(_alias, _label, _mod) ENTITYX(inforg,_alias,_label,_mod)
 
 @enduml

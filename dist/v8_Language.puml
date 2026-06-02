@@ -25,5 +25,7 @@ zzvizzzzzzvivjririvizzzzvirivizz
 !define _Язык(_alias) ENTITY(language,_alias)
 !define _Язык(_alias, _label) ENTITY(language,_alias,_label)
 !define _Язык(_alias, _label, _tag) ENTITY(language,_alias,_label,_tag)
+!define v8_LanguageExt(_alias, _label, _mod) ENTITYX(language,_alias,_label,_mod)
+!define _ЯзыкРасширенный(_alias, _label, _mod) ENTITYX(language,_alias,_label,_mod)
 
 @enduml

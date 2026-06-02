@@ -25,5 +25,7 @@ zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 !define _ПараметрыФункциональныхОпций(_alias) ENTITY(functionaloptionsparameters,_alias)
 !define _ПараметрыФункциональныхОпций(_alias, _label) ENTITY(functionaloptionsparameters,_alias,_label)
 !define _ПараметрыФункциональныхОпций(_alias, _label, _tag) ENTITY(functionaloptionsparameters,_alias,_label,_tag)
+!define v8_FunctionalOptionsParametersExt(_alias, _label, _mod) ENTITYX(functionaloptionsparameters,_alias,_label,_mod)
+!define _ПараметрыФункциональныхОпцийРасширенный(_alias, _label, _mod) ENTITYX(functionaloptionsparameters,_alias,_label,_mod)
 
 @enduml
